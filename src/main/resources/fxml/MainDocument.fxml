@@ -10,8 +10,8 @@
 		<Button layoutX="33.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
 		<Button layoutX="193.0" layoutY="16.0" mnemonicParsing="false" text="Button" />
 		<Button layoutX="116.0" layoutY="15.0" mnemonicParsing="false" text="Button" />
-		<ListView layoutX="194.0" layoutY="58.0" prefHeight="184.0" prefWidth="699.0" />
-		<TreeView layoutX="4.0" layoutY="58.0" prefHeight="438.0" prefWidth="193.0" />
-		<WebView fx:id="webRender" layoutX="197.0" layoutY="242.0" prefHeight="253.0" prefWidth="694.0" />
+		<ListView layoutX="197.0" layoutY="55.0" prefHeight="187.0" prefWidth="694.0" AnchorPane.leftAnchor="197.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="55.0" />
+		<TreeView layoutX="4.0" layoutY="58.0" prefHeight="438.0" prefWidth="193.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="55.0" />
+		<WebView fx:id="webRender" layoutX="197.0" layoutY="242.0" prefHeight="250.0" prefWidth="693.0" style="-fx-border-color: black; -fx-border-size: 1px; -fx-border-style: solid;" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="197.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="242.0" />
 	</children>
 </AnchorPane>
