@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0"
+	prefWidth="499.0" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<HBox layoutX="21.0" layoutY="20.0" prefHeight="27.0"
+			prefWidth="455.0">
+			<children>
+				<ImageView fitHeight="27.0" fitWidth="27.0"
+					pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@/images/inbox.png" />
+					</image>
+
+				</ImageView>
+				<Label fx:id="subject" prefHeight="15.0" prefWidth="414.0"
+					text="Subject: " translateX="11.0" translateY="6.0" />
+			</children>
+		</HBox>
+		<HBox layoutX="21.0" layoutY="50.0" prefHeight="27.0"
+			prefWidth="455.0">
+			<children>
+				<ImageView fitHeight="27.0" fitWidth="27.0"
+					pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@/images/sent.png" />
+					</image>
+
+				</ImageView>
+				<Label fx:id="from" prefHeight="15.0" prefWidth="414.0"
+					text="From: " translateX="11.0" translateY="6.0" />
+			</children>
+		</HBox>
+		<WebView fx:id="webView" layoutX="21.0" layoutY="92.0"
+			prefHeight="242.0" prefWidth="455.0" />
+	</children>
+</AnchorPane>
